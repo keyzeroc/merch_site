@@ -1,0 +1,67 @@
+body{
+	background-color: white;
+}
+header{
+	background-color:white;
+	height: 100px;
+}
+a:link, a:visited{
+	color: #c900f1;
+}
+a:hover{
+	/*ADD STYLE*/
+}
+.bd-btm{
+	background-color: white;
+	text-align: center;
+	border-bottom: 1px solid #f1d1ff;
+	border-bottom-right-radius: 20px; 
+	border-bottom-left-radius: 20px;
+	background: linear-gradient(to bottom,#f1d1ff,white);
+}
+.shop-item{
+	padding: 10px;
+	text-align: center;
+	margin: 15px 15px 15px 15px;
+	border-radius: 20px;
+	border: 1px solid #f1d1ff;
+	background-color: #edf7f6;
+}
+.buy-btn{
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 5px;
+	cursor: pointer;
+}
+.hoverWrapper:hover #hoverShow1 {
+ 	display: block;
+ 	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.hoverWrapper #hoverShow1 {
+ 	display: none;
+ 	position: fixed;
+ 	right: 50px;
+ 	border: 1px solid #ebc1ff;
+ 	background-color: rgba(243, 224, 252, 0.6);
+ 	z-index: 1;
+ 	width: 200px;
+}
+#hoverShow1 a{
+	color: black;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px; 
+	width: 48%;
+	cursor:pointer;
+}
+ul{
+	list-style: none;
+	list-style-position: inside;
+	padding: 0px;
+}
+li:before{
+	content:'✖';
+}
