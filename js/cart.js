@@ -1,9 +1,11 @@
 var storageName="hscart";
 
-window.onload=function() {
+// window.onload=function() {
+// 	loadItems();
+// };
+$(document).ready(function(){
 	loadItems();
-};
-
+});
 function handleButton(item){
 	let itemsArray = getStoreArray(storageName);
 	if(itemsArray.includes(item)) return;

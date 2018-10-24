@@ -6,9 +6,9 @@
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<!-- hover css -->
-	<link rel="stylesheet" href="hover-css.css">
+	<link rel="stylesheet" href="css/hover-css.css">
 	<!-- my style -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container-fluid">
@@ -21,10 +21,10 @@
 			<div class="col-12">
 				<nav class="row">
 					<a href="index.html" class="col">HOME</a>
-					<a href="socials.html" class="col">OUR SOCIALS</a>
-					<div href="#" class="col hoverWrapper" style="color:#c900f1;">
+					<a href="about.html" class="col">ABOUT US</a>
+					<div class="col cartWrapper" style="color:#c900f1;">
 						CART
-						<div id="hoverShow1">
+						<div id="cartShow">
 							<ul id="hscart" style="color:black;"></ul>
 							<a class="hvr-back-pulse hvr-underline-from-center" onclick="clearAll()">Clear all</a>
 							<a class="hvr-back-pulse hvr-underline-from-center" href="checkout.html">Checkout</a>
@@ -34,25 +34,43 @@
 			</div>
 		</div>			
 	</header>
-	<div class="row" style="padding-top:30px;margin:0px 0px 10px 0px;">
+	<div class="row shop-items">
 		<div class="col shop-item hvr-grow">
-			<img src="img/hoody1.png">
+			<img src="img/clothings/hoody1.png">
 			<h2>Hoody1</h2>
 			<div class="hvr-back-pulse hvr-underline-from-center buy-btn" onclick="handleButton('Hoody1')">Add to cart: 30$</div>
 		</div>
 		<div class="col shop-item hvr-grow">
-			<img src="img/hoody2.png">
+			<img src="img/clothings/hoody2.png">
 			<h2>Hoody2</h2>
 			<div class="hvr-back-pulse hvr-underline-from-center buy-btn" onclick="handleButton('Hoody2')">Add to cart: 30$</div>
 		</div>
 		<div class="col shop-item hvr-grow">
-			<img src="img/hoody3.png">
+			<img src="img/clothings/hoody3.png">
 			<h2>Hoody3</h2>
 			<div class="hvr-back-pulse hvr-underline-from-center buy-btn" onclick="handleButton('Hoody3')">Add to cart: 30$</div>
 		</div>
 	</div>
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col hvr-bob">
+				<a href="#"><img class="small-icon" src="img/social/vk.png"></a>
+			</div>
+			<div class="col hvr-bob ">
+				<a href="#"><img class="small-icon" src="img/social/viber.png"></a>
+			</div>
+			<div class="col hvr-bob">
+				<a href="#"><img class="small-icon" src="img/social/tg.png"></a>
+			</div>
+			<div class="col hvr-bob">
+				<a href="#"><img class="small-icon" src="img/social/insta.png"></a>
+			</div>
+		</div>
+	</footer>
 </div>
-<!-- SCRIPT -->
-<script src="cart.js"></script>	
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/cart.js"></script>	
+
 </body>
 </html>

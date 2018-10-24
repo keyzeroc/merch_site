@@ -2,14 +2,27 @@ body{
 	background-color: white;
 }
 header{
-	background-color:white;
 	height: 100px;
+}
+footer{
+	text-align: center;
+	height: 80px;
+	border-top: 1px solid #f1d1ff;
+	border-top-right-radius: 20px; 
+	border-top-left-radius: 20px;
+	padding-top: 10px;
+	background: linear-gradient(to top,#f1d1ff,white);
 }
 a:link, a:visited{
 	color: #c900f1;
 }
 a:hover{
 	/*ADD STYLE*/
+}
+.small-icon{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
 }
 .bd-btm{
 	background-color: white;
@@ -18,6 +31,10 @@ a:hover{
 	border-bottom-right-radius: 20px; 
 	border-bottom-left-radius: 20px;
 	background: linear-gradient(to bottom,#f1d1ff,white);
+}
+.shop-items{
+	padding-top:30px;
+	margin-bottom: 10px;
 }
 .shop-item{
 	padding: 10px;
@@ -33,21 +50,21 @@ a:hover{
 	padding: 5px;
 	cursor: pointer;
 }
-.hoverWrapper:hover #hoverShow1 {
+.cartWrapper:hover #cartShow{
  	display: block;
  	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
-.hoverWrapper #hoverShow1 {
+#cartShow{
  	display: none;
- 	position: fixed;
+ 	position: absolute;
  	right: 50px;
  	border: 1px solid #ebc1ff;
  	background-color: rgba(243, 224, 252, 0.6);
  	z-index: 1;
  	width: 200px;
 }
-#hoverShow1 a{
+#cartShow a{
 	color: black;
 	border: 1px solid gray;
 	border-radius: 20px;
@@ -56,6 +73,16 @@ a:hover{
 	margin-left: 0px; 
 	width: 48%;
 	cursor:pointer;
+}
+#checkout-form{
+	width: 500px;
+	padding: 30px;
+	border-radius: 20px;
+	background: linear-gradient(to bottom,#f1d1ff,white);
+	margin-top: 30px;
+}
+.checkout-form-item{
+	margin-bottom: 10px;
 }
 ul{
 	list-style: none;
