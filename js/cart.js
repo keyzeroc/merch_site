@@ -1,8 +1,5 @@
 var storageName="hscart";
 
-// window.onload=function() {
-// 	loadItems();
-// };
 $(document).ready(function(){
 	loadItems();
 });

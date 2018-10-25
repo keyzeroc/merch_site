@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 body{
-	background-color: white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.2em;
+	background-color: black;
 }
 header{
-	height: 100px;
+	text-align: center;
 }
 footer{
 	text-align: center;
@@ -11,10 +14,11 @@ footer{
 	border-top-right-radius: 20px; 
 	border-top-left-radius: 20px;
 	padding-top: 10px;
-	background: linear-gradient(to top,#f1d1ff,white);
+	/*background: linear-gradient(to top,#f1d1ff,white);*/
+	background-color: white;
 }
 a:link, a:visited{
-	color: #c900f1;
+	color: white;
 }
 a:hover{
 	/*ADD STYLE*/
@@ -25,12 +29,9 @@ a:hover{
 	border-radius: 10px;
 }
 .bd-btm{
-	background-color: white;
-	text-align: center;
 	border-bottom: 1px solid #f1d1ff;
 	border-bottom-right-radius: 20px; 
 	border-bottom-left-radius: 20px;
-	background: linear-gradient(to bottom,#f1d1ff,white);
 }
 .shop-items{
 	padding-top:30px;
@@ -42,7 +43,8 @@ a:hover{
 	margin: 15px 15px 15px 15px;
 	border-radius: 20px;
 	border: 1px solid #f1d1ff;
-	background-color: #edf7f6;
+	/*background: linear-gradient(to top,#d03dff,#db68ff);*/
+	background: linear-gradient(to top,#e14fff,white);
 }
 .buy-btn{
 	border: 1px solid gray;
@@ -56,23 +58,14 @@ a:hover{
 	border-bottom-right-radius: 20px;
 }
 #cartShow{
+	color: black;
  	display: none;
  	position: absolute;
  	right: 50px;
  	border: 1px solid #ebc1ff;
- 	background-color: rgba(243, 224, 252, 0.6);
+ 	background-color: rgba(243, 224, 252, 0.7);
  	z-index: 1;
- 	width: 200px;
-}
-#cartShow a{
-	color: black;
-	border: 1px solid gray;
-	border-radius: 20px;
-	padding: 5px;
-	margin-bottom: 0px;
-	margin-left: 0px; 
-	width: 48%;
-	cursor:pointer;
+ 	width: 250px;
 }
 #checkout-form{
 	width: 500px;

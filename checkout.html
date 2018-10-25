@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>Main page</title>
-	<!-- bootstrap -->
+	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<!-- hover css -->
 	<link rel="stylesheet" href="vendors/hover-css.css">
-	<!-- my style -->
+	<!-- my css -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,19 +15,18 @@
 	<header>
 		<div class="row bd-btm">
 			<div class="col header-logo">
-				<img src="img/logo_grad3.png" alt="LOGO">
+				<img src="img/logo.png" alt="LOGO">
 			</div>
 			<div class="w-100"></div>
 			<div class="col-12">
 				<nav class="row">
 					<a href="index.html" class="col">HOME</a>
-					<a href="about.html" class="col">ABOUT US</a>
-					<div href="#" class="col cartWrapper" style="color:#c900f1;">
+					<div class="col cartWrapper" style="color:white;">
 						CART
 						<div id="cartShow">
-							<ul id="hscart" style="color:black;"></ul>
+							<ul id="hscart"></ul>
 							<a class="hvr-back-pulse hvr-underline-from-center" onclick="clearAll()">Clear all</a>
-							<a class="hvr-back-pulse hvr-underline-from-center" href="checkout.html">Checkout</a>
+							<a class="hvr-back-pulse hvr-underline-from-center" style="color:black;" href="checkout.html">Checkout</a>
 						</div>
 					</div>
 				</nav>

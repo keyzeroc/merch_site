@@ -18,14 +18,11 @@ var hoody3={
 	imgPath:"img/clothings/hoody3.png"
 };
 //----------FUNCS-----------
-// window.onload = function(){
-// }
 $(document).ready(function(){
-	itemsDiv = document.getElementById("cart-items");
-	totalPriceP = document.getElementById("cart-total-price");
+	totalPriceP = $("#cart-total-price");
 	itemsArray = getSavedItems();
 	let total = calcPrice();
-	totalPriceP.innerHTML = totalPriceP.textContent+" "+total+"$";
+	totalPriceP.text(totalPriceP.text()+" "+total+"$");
 	console.log(total);
 });
 function calcPrice(){
