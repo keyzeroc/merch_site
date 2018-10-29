@@ -7,6 +7,10 @@ body{
 header{
 	text-align: center;
 }
+iframe{
+	width: 100%;
+	height: 100%;
+}
 footer{
 	text-align: center;
 	height: 80px;
@@ -14,7 +18,6 @@ footer{
 	border-top-right-radius: 20px; 
 	border-top-left-radius: 20px;
 	padding-top: 10px;
-	/*background: linear-gradient(to top,#f1d1ff,white);*/
 	background-color: black;
 }
 a:link, a:visited{
@@ -43,7 +46,6 @@ a:hover{
 	margin: 15px 15px 15px 15px;
 	border-radius: 20px;
 	border: 1px solid #f1d1ff;
-	/*background: linear-gradient(to top,#d03dff,#db68ff);*/
 	background: linear-gradient(to top,#e14fff,white);
 }
 .buy-btn{
